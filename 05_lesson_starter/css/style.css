@@ -4,22 +4,56 @@
     box-sizing: border-box;
 }
 
-body {
+/*body {
     min-height: 100vh;
-}
+    Allows you to size elements relative to the height of the browser window
+}*/
 
-h1 {
+/*h1 {
     border: 2px dashed red;
     width: 50%;
     font-size: 3rem;
     padding: 0.5em;
+}*/
+
+.container {
+    border: 10px double red;
+    /*border: dashed red; default 3px*/
+    /*border-top-width: 5px;
+      border-top-style: ridge;
+      border-top-color: blue;*/
+    border-top: 5px solid green;
+    border-right: 10px dotted blue;
+    font-size: 1.5rem;
+    /*width: 400px;*/
+    /*margin: 1.5em;*/
+    /*margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;*/
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: 5px;
+    outline-offset: -20px;
 }
 
-main {
+.circle {
+    margin: 3rem auto;
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}
+
+/*main {
     font-size: 2rem;
-}
+}*/
 
-p {
+/*p {
     font-size: 2rem;
     width: 40ch;
-}
+}*/
