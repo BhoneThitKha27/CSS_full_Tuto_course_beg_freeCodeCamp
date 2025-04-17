@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 50% of h1 width */
+/*header {
+    width: 50%
+}*/
+
+/*body {
+    width: 100vw;
+}*/
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    /*width: 50vw;
+    background-color: skyblue;*/
+    font-size: 2rem;
+}
+
+/* If the root unit value isn't defined, it depends on the browser default */
+/* Also doesn't relate to parent element*/
+p {
+    font-size: 2rem;
+    width: 40ch;
+    /* width of 40 characters*/
+}
+/*p {
+    font-size: 16px;
+}*/
