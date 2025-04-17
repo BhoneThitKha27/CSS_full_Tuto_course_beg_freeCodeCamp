@@ -1,0 +1,62 @@
+html {
+    font-size: 22px;
+}
+
+* {
+    font-family: monospace;
+    /* border: 1px solid reds;
+    Applied to all elements */
+}
+
+/* body {
+    font-size: 22px;
+    border: 3px solid black;
+    Only applied to body element 
+} */
+
+
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+/* declarations for both h1 and h2 */
+h1, h2 {
+    color: blue;
+}
+
+/* declarations for any h2 nested inside h1 */
+/* h1 h2 {
+    color: blue;
+} */
+
+/* h1 {
+    color: blue;
+} */
+
+p {
+    color: purple/*!important*//*overide everthing*/;
+}
+
+/* CSS read the last */
+/* p {
+    color: red;
+} */
+
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
