@@ -1,0 +1,26 @@
+/* Typography is the way that text is arranged and presented */
+
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    padding: 10%;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 2rem;
+}
+
+input, button {
+    font: inherit;
+}
+
+p {
+    /*text-decoration: none; remove underlined from links */
+    /*text-transform: capitalize;*/
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: fantasy, sans-serif, monospace;
+}
