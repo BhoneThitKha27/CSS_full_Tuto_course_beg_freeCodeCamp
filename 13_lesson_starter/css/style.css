@@ -17,6 +17,7 @@ body {
   width: 75vw;
   height: 85vh;
   margin: 40px auto;
+  position: relative;
 }
 
 .inner-container {
@@ -31,4 +32,94 @@ body {
   height: 150px;
   color: #fff;
   padding: 1rem;
+}
+
+.absolute {
+  background-color: #00f;
+  /* position: static; */
+  position: absolute;
+  top: 0; /* default */
+  left: 0; /* default */
+  /* top: 100px;
+  left: 50px; */
+  /* left: -100000px; */
+  z-index: 1;
+}
+
+.relative {
+  background-color: red;
+  position: relative;
+  top: 300px;
+  left: 100px ;
+}
+
+.fixed {
+  background-color: aqua;
+  position: fixed;
+  top: 100px; 
+}
+
+.sticky {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+/*  Remember, how to make things disappear! */
+
+/*//////////////////////////*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+}
+
+.blue {
+  background-color: #00f;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+header, footer {
+  color: aliceblue;
+  text-align: center;
+  height: 100px;
+  /* font-size: 5rem; */
+}
+
+header {
+  position: sticky;
+  top: 0;
+  font-size: 5rem;
+}
+
+footer {
+  background-color: black;
+  /*nposition: fixed;
+  width: 100%; */
+  position: sticky;
+  bottom: 0;
+  font-size: 2rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.social {
+  background-color: royalblue;
+  color: #fff;
+  font-size: inherit;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
 }
