@@ -7,13 +7,37 @@
   box-sizing: border-box;
 }
 
+/* || VARIABLES */
+:root {
+  /* FONT */
+  --FF: "Nunito", sans-serif;
+  --FS: 1.5rem;
+  --FS-XL: 3rem;
+  
+  
+  /* COLOR */
+  --BGCOLOR: #475569;
+  --ALT-BGCOLOR: #1E293B;
+  --RADIAL-COLOR: whitesmoke;
+  --LIGHT-COLOR: whitesmoke;
+  --DARK-COLOR: #000;
+
+  /* GENERAL */
+  --PADDING: 0.5rem;
+  --SHADOWS: 0 6px 5px -5px var(--DARK-COLOR);
+  --BORDERS: 2px solid var(--DARK-COLOR);
+}
+
 /* || GENERAL STYLES */
 body {
-  font: 1.5rem "Nunito", sans-serif;
+  font: var(--FS) var(--FF);
   min-height: 100vh;
 
-  background-color: #475569;
-  background-image: radial-gradient(whitesmoke, #475569);
+  /* background-color: #475569; */
+  /* background-color: black; */
+  background-color: var(--BGCOLOR);
+  /* background-image: radial-gradient(whitesmoke, #475569, var(--BGCOLOR)); */
+  background-image: radial-gradient(var(--RADIAL-COLOR), var(--BGCOLOR));
   display: flex;
   flex-direction: column;
 }
@@ -31,7 +55,8 @@ footer {
 header,
 footer {
   position: sticky;
-  background-color: #1E293B;
+  /* background-color: #1E293B; */
+  background-color: var(--ALT-BGCOLOR);
   color: whitesmoke;
 }
 
@@ -40,10 +65,15 @@ header {
 }
 
 nav {
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem;
-  border-bottom: 2px solid #000;
+  /* background-color: #fff; */
+  /* background-color: whitesmoke; */
+  background-color: var(--LIGHT-COLOR);
+  /* color: #000; */
+  color: var(--DARK-COLOR);
+  padding: var(--PADDING);
+  /* border-bottom: 2px solid #000; */
+  border-bottom: var(--BORDERS);
+  box-shadow: var(--SHADOWS);
 }
 
 main {
