@@ -111,14 +111,14 @@ footer {
 	--SQUARE-BGCOLOR: cornflowerblue;
 }
 
-.squaren {
-	background-color: var(--SQUARE-BGCOLOR);
-	width: var(--SQUARE-SIZE);
-	height: var(--SQUARE-SIZE);
-	border: var(--BORDERS);
-	border-radius: 15px;
-	display: grid;
-	place-content: center;
-	font-size: var(--FS-XL)
-	box-shadow: var(--SHADOWS);
+.square {
+  background-color: var(--SQUARE-BGCOLOR);
+  width: var(--SQUARE-SIZE);
+  height: var(--SQUARE-SIZE);
+  border: var(--BORDERS);
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+  font-size: var(--FS-XL);
+  box-shadow: var(--SHADOWS);
 }
