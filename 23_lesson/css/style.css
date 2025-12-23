@@ -34,9 +34,12 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  align-items: center;
   display: flex;
   flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 /* || BLOCKS */
@@ -67,11 +70,13 @@ body {
   border-radius: 15px;
 }
 
+/* .header button  */
+
 /* || MODIFIERS */
 /* incremental style changes */
 
 /* Blocks with modifiers */
-.btn--secondary {
+.header__btn--secondary {
   background-color: yellow;
 }
 
